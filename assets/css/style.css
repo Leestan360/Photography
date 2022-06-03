@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../images/She_mine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 100%;
+    width: auto;    
+    height: auto;
+}
+
+.main {
+    /* background-color: rgb(193, 212, 248); */
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    margin-right: 450px;
+    margin-left: 450px;
+    /* border-radius:10px; */
+    color: brown;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+    font-weight:120;
+}
+
+.login {
+    margin: auto;
+    width: 24%;
+    border: none;
+    padding: 10px;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 5px;
+    /* background-color:rgb(193, 212, 248); */
+}
+
+.login > p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.registration > .log-in > .e-mail {
+    padding: 8px;
+    margin-top: 10px;
+    width: 90%;
+    margin-left: 8px;
+    outline: none;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid lightgray;
+    border-left: 0;
+    background-color: rgb(208, 208, 236);
+}
+
+.registration > .log-in > #btnLogin {
+    margin-top: 15px;
+    margin-left:80px;
+    width: 50%;
+    font-size: 20px;
+    padding: 7px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: brown;
+    color: white;
+}
